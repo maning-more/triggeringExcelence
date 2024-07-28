@@ -9,7 +9,7 @@ export default function Navbar() {
         
         <div className='container  h-45 bg-customGray shadow-sm rounded-xl bg-slate-100 border border-black flex justify-between '>
             <div className='flex flex-row p-5'>
-                <img src={logo} alt="logo" className='h-15 ml-3 w-auto h-10' />
+             <Link to="/">  <img src={logo} alt="logo" className='h-15 ml-3 w-auto h-10' /></Link>
 
             </div>
             <div className=' space-x-8 mt-5 mr-5'>
